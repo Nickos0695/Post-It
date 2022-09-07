@@ -1,0 +1,21 @@
+a,
+.green {
+  text-decoration: none;
+  color: #1e4c74;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #1e4c74;
+    color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: auto;
+  }
+
+}
